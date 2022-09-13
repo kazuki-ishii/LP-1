@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="header-nav">
+      <div class="logo-img">
+        <img src="/img/logo-img.png" alt="logo-img">
+      </div>
+      <ul class="header-nav__list">
+        <li class="header-nav__list__item">
+          <a href="#about">ABOUT</a>
+        </li>
+        <li class="header-nav__list__item">
+          <a href="#news">NEWS</a>
+        </li>
+        <li class="header-nav__list__item">
+          <a href="#menu">MENU</a>
+        </li>
+        <li class="header-nav__list__item">
+          <a href="#recommend">RECOMMEND</a>
+        </li>
+        <li class="header-nav__list__item">
+          <a href="#access">ACCESS</a>
+        </li>
+        <li class="header-nav__list__item">
+          <a href="#contact">CONTACT</a>
+        </li>
+        <li class="header-nav__list__item">
+          <a href="#" style="background-color:#000000; color:#fff; padding: 0 10px;">ONLINE SHOP</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main" id="main">
+    <section class="top" id="top">
+      <div class="header-padding"></div>
+      <div class="top-wrapper">
+        <div class="top-wrapper__1">
+          <p class="top-wrapper__business-hours">
+            MORNING－8:00<br>
+            LUNCH－11:00<br>
+            CAFE－15:00<br>
+            DINER－17:00
+          </p>
+        </div>
+        <div class="top-wrapper__2">
+          <img src="/img/K’s Cafe-top-img.png" alt="">
+        </div>
+        <div class="top-wrapper__3">
+          <p class="top-wrapper__tel">
+            ご予約はお電話で<br>
+            tel.012-3456-7890
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <div class="about-wrapper inner">
+        <div class="ttl">
+          <img src="/img/img-1.png" alt="ttl_border">
+          <h1 class="ttl__1">ABOUT</h1>
+          <img src="/img/img-1.png" alt="ttl_border">
+        </div>
+        <div class="about-contents">
+          <img src="/img/about-img.jpg" alt="about-img">
+          <h2 class="ttl__2">K's Cafe</h2>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
+      </div>
+    </section>
+    <section class="news section" id="news">
+      <div class="news-wrapper inner">
+        <div class="ttl">
+          <img src="/img/img-1.png" alt="ttl_border">
+          <h1 class="ttl__1">NEWS</h1>
+          <img src="/img/img-1.png" alt="ttl_border">
+        </div>
+        <div class="news-contents">
+          <div class="content">
+            <h2 class="ttl__3">●タイトル</h2>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+          <div class="content">
+            <h2 class="ttl__3">●タイトル</h2>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+          <div class="content">
+            <h2 class="ttl__3">●タイトル</h2>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+          <div class="content">
+            <h2 class="ttl__3">●タイトル</h2>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu section" id="menu">
+      <div class="menu-wrapper inner">
+        <div class="ttl">
+          <img src="/img/img-1.png" alt="ttl_border">
+          <h1 class="ttl__1">MENU</h1>
+          <img src="/img/img-1.png" alt="ttl_border">
+        </div>
+        <div class="menu-content-img">
+          <img src="/img/menu-content.png" alt="menu-content-img">
+        </div>
+        <!--
+
+          枠のみ画像の差し込みとする予定だったが、以下の理由から全体画像の差し込みにする。
+          ・メニュー数が少ない場合に枠内の縦の余白が多くなる。
+          ・コーディング量が多すぎる
+
+        <div class="menu-content-top">
+          <img src="/img/menu-border-img.png" alt="#">
+          <h2 class="ttl__2">MENU</h2>
+        </div>
+        <div class="menu-content-bottom">
+          <div class="menu-categorys">
+            <div class="category drink">
+                <h2 class="ttl__3">DRINK</h2>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+            </div>
+            <div class="category sweets">
+                <h2 class="ttl__3">SWEETS</h2>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+            </div>
+            <div class="category foods">
+                <h2 class="ttl__3">FOODS</h2>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+            </div>
+            <div class="category set-menu">
+                <h2 class="ttl__3">SET MENU</h2>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+                <div>
+                  <p class="item">ブレンドコーヒー</p>
+                  <p class="price">￥300</p>
+                </div>
+            </div>
+          </div>
+          <img src="/img/menu-border-img.png" alt="#">
+        </div>
+        -->
+      </div>
+    </section>
+    <section class="recommend section" id="recommend">
+      <div class="recommend-wrapper inner">
+        <div class="ttl">
+          <img src="/img/img-1.png" alt="ttl_border">
+          <h1 class="ttl__1">RECOMMEND</h1>
+          <img src="/img/img-1.png" alt="ttl_border">
+        </div>
+        <div class="recommend-item">
+          <img src="/img/menu-img-1.png" alt="menu-img-1">
+          <div class="recommend-item-detail">
+            <div class="recommend-item-explanation">
+              <h2 class="ttl__2">タイトル</h2>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend-item">
+          <img src="/img/menu-img-3.png" alt="menu-img-3">
+          <div class="recommend-item-detail">
+            <div class="recommend-item-explanation">
+              <h2 class="ttl__2">タイトル</h2>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend-item">
+          <img src="/img/menu-img-4.png" alt="menu-img-4">
+          <div class="recommend-item-detail">
+            <div class="recommend-item-explanation">
+              <h2 class="ttl__2">タイトル</h2>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="access section" id="access">
+      <div class="access-wrapper inner">
+        <div class="ttl">
+          <img src="/img/img-1.png" alt="ttl_border">
+          <h1 class="ttl__1">ACCESS</h1>
+          <img src="/img/img-1.png" alt="ttl_border">
+        </div>
+        <div class="access-content">
+          <div class="map-img">
+            <img src="/img/map-img.jpg" alt="map-img">
+          </div>
+          <div class="access-item">
+            <div class="access-item-detail">
+              <h2 class="ttl__2">K's Cafe</h2>
+              <p class="address">〒 123-4567<br>神奈川県○○○市○○区○○-○○</p>
+              <p class="tel">TEL 123-4567-4567</p>
+              <p class="detail">
+                お車でお越しの場合<br>　○○○○ICから車で○○分<br>
+                電車でお越しの場合<br>　○○○○駅から徒歩○○分
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact section" id="contact">
+      <div class="contact-wrapper inner">
+        <div class="ttl">
+          <img src="/img/img-1.png" alt="ttl_border">
+          <h1 class="ttl__1">CONTACT</h1>
+          <img src="/img/img-1.png" alt="ttl_border">
+        </div>
+        <div class="contact-content">
+          <p>お問い合わせはメールまたはSNSから</p>
+          <img src="/img/twitter.png" alt="twitter-img" width="75px">
+          <p>○○○○○○○○○○○○○○@gmail.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="footer-wrapper inner">
+      <p class="footer-wrapper__txt">©︎テキストテキスト. All Rights Reserved</p>
+    </div>
+    <a href="#" id="page-top"></a>
+  </footer>
+</body>
+</html>
