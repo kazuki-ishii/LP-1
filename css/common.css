@@ -122,6 +122,7 @@ li {
   padding: 10px 0;
   margin-bottom: 30px;
   margin-right: 30px;
+  box-shadow: 5px 5px 3px 1px #fff;
 }
 
 .section {
@@ -178,7 +179,7 @@ li {
 /************************************/
 .news-contents {
   width: 70%;
-  padding-top: 50px;
+  padding-top: 85px;
   margin: 0 auto;
 }
 
@@ -195,48 +196,39 @@ li {
 /************************************/
 /*               menu               */
 /************************************/
-/*
-.menu-content-top {
-  width: 100%;
-  height: 200px;
+.menu-content {
+  width: 80%;
   position: relative;
-  overflow: hidden;
-  padding-top: 50px;
+  margin: 0 auto;
 }
 
-.menu-content-top img {
+.menu-content-img {
   width: 100%;
-  z-index: 20;
+  padding-top: 100px;
+  margin: 0 auto;
 }
 
-.menu-content-top .ttl__2 {
+.menu-content-img img {
+  width: 100%;
+}
+
+.ttl__2 {
   width: 100%;
   position: absolute;
-  top: 90%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.menu-content-bottom {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-
+  padding-bottom: 30px;
 }
 
 .menu-categorys {
-  width: 100%;
-  height: 900px;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
-  position: relative;
-}
-
-.menu-content-bottom img {
-  width: 100%;
   position: absolute;
-  bottom: 0%;
-  z-index: 10;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .category {
@@ -260,28 +252,18 @@ li {
 }
 
 .item {
-  width: 80%;
+  width: 75%;
 }
 
 .price {
-  width: 20%;
+  width: 25%;
   text-align: center;
 }
 
 .foods, .set-menu {
   padding-top: 40px;
 }
-*/
 
-.menu-content-img {
-  width: 70%;
-  padding-top: 50px;
-  margin: 0 auto;
-}
-
-.menu-content-img img {
-  width: 100%;
-}
 
 /************************************/
 /*            recommend             */
@@ -293,6 +275,10 @@ li {
   background-color: #F0E8D8;
   align-items: center;
   justify-content: center;
+}
+
+.recommend-item-1 {
+  margin-top: 100px;
 }
 
 .recommend-item:nth-last-of-type(even) {
@@ -338,7 +324,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px 0;
+  margin-top: 100px;
 }
 
 .map-img {
@@ -387,7 +373,7 @@ li {
 /*             contact              */
 /************************************/
 .contact-content {
-  padding-top: 50px;
+  margin-top: 100px;
   text-align: center;
 }
 
