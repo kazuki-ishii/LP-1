@@ -210,6 +210,10 @@ li {
 /************************************/
 /*               menu               */
 /************************************/
+.menu-content-paddingTop {
+  height: 100px;
+}
+
 .menu-content {
   width: 80%;
   position: relative;
@@ -218,7 +222,6 @@ li {
 
 .menu-content-img {
   width: 100%;
-  padding-top: 100px;
   margin: 0 auto;
 }
 
@@ -229,7 +232,7 @@ li {
 .menu-content .ttl__2 {
   width: 100%;
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding-bottom: 30px;
@@ -240,9 +243,9 @@ li {
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  top: 30%;
+  bottom: 20%;
   left: 50%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 10%);
 }
 
 .category {
