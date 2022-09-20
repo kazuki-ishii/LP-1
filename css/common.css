@@ -231,21 +231,17 @@ li {
 
 .menu-content .ttl__2 {
   width: 100%;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 
-.menu-categorys {
+.menu-categories {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  bottom: 20%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 10%);
+  transform: translate(-50%, -50%);
 }
 
 .category {
